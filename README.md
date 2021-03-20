@@ -1,5 +1,6 @@
 # python-snippets
 
+<hr>
 
 iter long list as chunks of fixed size
 ```python
@@ -12,3 +13,6 @@ vals = range(45)
 for chunk_vals in grouper(vals, chunk_size=10, fillvalue=None):
   print(chunk_vals)
 ```
+
+<hr>
+
