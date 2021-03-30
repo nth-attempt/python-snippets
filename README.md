@@ -33,5 +33,9 @@ for start, end in daterange(start_date, end_date):
 <hr>
 
 TODO: add multiprocessing using pathos
+
+
 TODO: add multiprocessing using Manager
+
+TODO: pd set options for max rows, columns, column width
 
