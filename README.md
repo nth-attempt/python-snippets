@@ -39,3 +39,18 @@ TODO: add multiprocessing using Manager
 
 TODO: pd set options for max rows, columns, column width
 
+<hr>
+
+visualize dataframe as a heatmap
+```python
+import numpy as np
+import pandas as pd
+
+index = [1, 2, 3, 4]
+cols = ["A", "B", "C"]
+df = pd.DataFrame(np.random.randn(4, 3), index=index, columns=cols)
+df.style.background_gradient(cmap="Blues")
+```
+
+<hr>
+
